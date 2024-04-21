@@ -1,0 +1,33 @@
+@import './reset.scss';
+
+
+// 滾動條外觀設置
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $base-menu-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: yellowgreen;
+  border-radius: 10px;
+}
+
+.el-carousel__indicator--horizontal .el-carousel__button {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 1px solid #070707;
+  opacity: 0.5;
+  }
+
+.el-carousel__indicator--horizontal.is-active .el-carousel__button {
+  width: 10px;
+  height: 10px;
+  background: #070707;
+  opacity: 1;
+}
+
