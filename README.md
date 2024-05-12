@@ -1,8 +1,10 @@
 # 硅谷甄選運營平台
+
 這是一個後臺管理系統，使用 Vue 3 +Vue-router + TypeScript + Vite + Element Plus +axios + echarts 樣式使用Scss編寫，API由尚硅谷提供
 
 # Demo網站
 
+因API使用http而非https所以再使用上可能開啟允許不安全的內容
 https://lemoncat0817.github.io/v3-admin-template/
 
 # 功能特色
